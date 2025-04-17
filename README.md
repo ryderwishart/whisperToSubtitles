@@ -1,7 +1,11 @@
-# JSON to VTT Converter
+# Whisper to Subtitles (JSON to VTT Converter)
 
 A simple, browser-based tool to convert JSON transcript files to WebVTT format.
 Perfect for creating subtitles and captions for web videos.
+
+Whisper JSON output can be generated directly in your browser, with no other
+tools needed, using
+[Whisper Web](https://huggingface.co/spaces/Xenova/whisper-web).
 
 ## Features
 
