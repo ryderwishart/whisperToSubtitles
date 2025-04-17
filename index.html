@@ -91,6 +91,34 @@
         font-family: monospace;
         font-size: 0.9rem;
       }
+
+      .github-link {
+        display: inline-block;
+        margin-top: 1rem;
+        text-decoration: none;
+        color: #3498db;
+        font-weight: 500;
+      }
+
+      .github-link:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        margin-top: 2rem;
+        text-align: center;
+        color: #7f8c8d;
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: #3498db;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -103,6 +131,12 @@
           format. Whisper's forced alignment feature generates precise
           timestamps for each segment of audio, which this tool converts into
           standard VTT subtitles for web video players.
+        </p>
+        <p>
+          Generate Whisper JSON output in your browser using
+          <a href="https://huggingface.co/spaces/Xenova/whisper-web"
+            >Whisper Web</a
+          >.
         </p>
         <p>Expected JSON format from Whisper's forced alignment:</p>
         <div class="example">
@@ -124,7 +158,19 @@
         </p>
       </div>
       <div id="status"></div>
+
+      <a href="https://github.com/frontierrnd/whisperToVTT" class="github-link">
+        View on GitHub
+      </a>
     </div>
+
+    <footer>
+      <p>
+        Open Source! &copy;
+        <a href="https://frontierrnd.com">Frontier R&D</a> 2025
+      </p>
+    </footer>
+
     <script src="converter.js"></script>
   </body>
 </html>
